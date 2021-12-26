@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Abril+Fatface&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Abhaya Libre', serif;
+    /* font-family: 'Abril Fatface', cursive; */
+}
+/*---------- Parent / Root Container ----------*/
+.landing-page-container{
+    display: flex;
+    width: 100vw;
+}
+
+/*---------- Hero-Section Container ----------*/
+.hero-section-container{
+    width: 50vw;
+}
+/*---------- Hero-Section Container NavBar ----------*/
+.hero-section-container #main-nav {
+    display: flex;
+    box-shadow:  0px 3px 5px #8888;
+    border-radius: 7px;
+    height: 4.2rem;
+    justify-content: space-between;
+}
+.hero-section-container #main-nav #main-logo{
+    font-family: 'Abril Fatface', cursive;
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    padding-left: 1.5rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section-container #main-nav #find-us{
+    display: flex;
+    margin: 1rem;
+    padding: 1rem;
+    padding-top:1.5rem;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.hero-section-container #main-nav #find-us #find-us-logo{
+   padding-right: .3rem;
+}
+
+
+/*---------- Image-Section-Container ----------*/
+.image-section-container{
+    width: 50vw;
+}
