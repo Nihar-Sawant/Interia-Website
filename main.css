@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&display=swap');
+
+
+
 *{
     margin: 0px;
     padding: 0px;
@@ -46,6 +50,23 @@
 
 .hero-section-container #main-nav #find-us #find-us-logo{
    padding-right: .3rem;
+}
+
+
+/*---------- Header-Section ----------*/
+.hero-section-container .header-section{
+    height:90vh;
+    padding: 7rem;
+}
+
+.hero-section-container .header-section #main-heading{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 60px;
+    font-weight:1000;
+    justify-content: center;
+    padding-top: .3rem;
+    padding-bottom: .3rem;
+    
 }
 
 
