@@ -19,6 +19,8 @@
 /*---------- Hero-Section Container ----------*/
 .hero-section-container{
     width: 50vw;
+    display: flex;
+    flex-direction: column;
 }
 /*---------- Hero-Section Container NavBar ----------*/
 .hero-section-container #main-nav {
@@ -56,19 +58,56 @@
 /*---------- Header-Section ----------*/
 .hero-section-container .header-section{
     height:90vh;
-    padding: 7rem;
+    margin: 5rem;
+    padding: 5rem;
+    
 }
 
 .hero-section-container .header-section #main-heading{
     font-family: 'Abhaya Libre', serif;
-    font-size: 60px;
+    font-size: 55px;
     font-weight:1000;
     justify-content: center;
-    padding-top: .3rem;
-    padding-bottom: .3rem;
     
 }
 
+.hero-section-container .header-section #sub-heading{
+    font-family: 'Abhaya Libre', serif;
+    font-size: 30px;
+    font-weight:1000;
+    padding-bottom: 1rem;
+    margin-top: -10px;
+}
+
+.hero-section-container .header-section #info-text{
+    font-family: 'Abhaya Libre', serif;
+    margin-top: .6rem;
+    color: #736F6F;
+    font-size: 20px;
+    font-weight: 400;
+    width: 25vw;
+}
+
+.hero-section-container .header-section #explore-btn-container{
+    font-family: 'Abhaya Libre', serif;
+    background: #362077;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    width: 6.6rem;
+    height: 2.2rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 3px;
+    box-shadow: -7px 4px 10px #333;
+    cursor: pointer;
+}
+
+.hero-section-container .header-section #explore-text{
+    padding-right:0.5rem ;
+}
 
 /*---------- Image-Section-Container ----------*/
 .image-section-container{
