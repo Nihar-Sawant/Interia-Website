@@ -57,7 +57,7 @@
 
 /*---------- Header-Section ----------*/
 .hero-section-container .header-section{
-    height:90vh;
+    height:35vh;
     margin: 5rem;
     padding: 5rem;
     
@@ -112,4 +112,63 @@
 /*---------- Image-Section-Container ----------*/
 .image-section-container{
     width: 50vw;
+    display: flex;
+    flex-direction: column;
+    position:static;
+    box-shadow: -2px 0px 10px #333;
+    
+}
+
+/*---------- Main-Image-Container ----------*/
+
+.image-section-container #main-image img{
+    width: 49vw;
+    height: 70vh;
+    object-fit: cover;
+
+}
+
+/*---------- Sub-Image-Container ----------*/
+
+
+.image-section-container #sub-container{
+    display: flex;
+    
+}
+
+.image-section-container #sub-container #sub-image img{
+    width: 30vw;
+    height: 30vh;
+    margin-top:-5px ;
+    object-fit:cover;
+}
+
+
+/*---------- Sub-Image-Explore-Container ----------*/
+
+.image-section-container #sub-container #image-explore-container{
+    font-family: 'Abhaya Libre', serif;
+    background: #362077;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 400;
+    width: 19vw;
+    height: 30vh;
+    margin-top:-5px ;
+    box-shadow: -2px 0px 10px #333;
+}
+
+.image-section-container #sub-container #image-explore-container #heading-text{
+    margin: 1.5rem;
+    text-align: right;
+}
+
+.image-section-container #sub-container #image-explore-container #explore-text{
+    font-size: 18px;
+    font-weight: 200;
+    text-align: right;
+    margin: 1.5rem;
+    padding: 1rem;
+    cursor: pointer;
+    
 }
